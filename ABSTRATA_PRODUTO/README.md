@@ -1,56 +1,34 @@
-# ABSTRATA_PRODUTO
+# ABSTRATA_PRODUTO (Abstract Product)
 
-O projeto consiste em um arranjo de classes hipotético para um sistema de estoque, o projeto possui uma classe abstrata (Produto) e duas classes concretas (ProdutoAlimenticio e ProdutoVestuario) com os respectivos atributos:  
-* Produto (super)
-    - nome
-    - custo
-    - venda
+This project is a hypothetical class arrangement for an inventory system.  
+It includes an abstract class (**Produto**) and two concrete classes (**ProdutoAlimenticio** and **ProdutoVestuario**) with the following attributes:
 
-* ProdutoAlimenticio(subclasse)
-    - validade
-    - nutricionais
+- **Produto** (superclass)
+  - name  
+  - cost  
+  - salePrice  
 
-* ProdutoVestuario (subclasse)
-    - tamanho
-    - cor
-    -material
+- **ProdutoAlimenticio** (subclass)
+  - expirationDate  
+  - nutritionalInfo  
 
-Todas as classes descritas acima possuem os mesmos métodos sendo calcularLucro() sobrescrito nas subclasses e os métodos save(), delete() e update() métodos únicos para cada classe que retornam instruções SQL para salvar, deletar e atualizar os dados, respectivamente, em um banco de dados hipotético. 
+- **ProdutoVestuario** (subclass)
+  - size  
+  - color  
+  - material  
 
-### 📋 Pré-requisitos
+All the classes above share the same methods.  
+The method `calculateProfit()` is overridden in the subclasses, and the methods `save()`, `delete()`, and `update()` are unique to each class, returning SQL statements to save, delete, and update data in a hypothetical database.
 
-É necessário ter java instalado e demais dependencias (no caso de Linux é necessário que instale jdk-23_linux-x64_bin.deb)
+### 📋 Requirements
 
-### 🔧 Instalação
+You must have Java installed and all required dependencies.  
+(If you're on Linux, make sure to install `jdk-23_linux-x64_bin.deb`)
 
-Para a utilização de projeto é necessário executa-lo através do Visual Studio code ou através do comando "java" direto numa shell Linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
+### 🔧 Installation
 
-## 🛠️ Construído com
+To run the project, you can use **Visual Studio Code** or run it directly from a Linux shell using the `java` command.  
+To do this, first compile the files with:
 
-Ferramentas utilizadas e bibliotecas
-
-* IDE Visual Studio
-
-## 📌 Versão
-
-* **Versão 1.0** O projeto consiste em um arranjo de classes hipotético para um sistema de estoque, o projeto possui uma classe abstrata (Produto) e duas classes concretas (ProdutoAlimenticio e ProdutoVestuario) com os respectivos atributos:  
-* Produto (super)
-    - nome
-    - custo
-    - venda
-
-* ProdutoAlimenticio(subclasse)
-    - validade
-    - nutricionais
-
-* ProdutoVestuario (subclasse)
-    - tamanho
-    - cor
-    -material
-
-Todas as classes descritas acima possuem os mesmos métodos sendo calcularLucro() sobrescrito nas subclasses e os métodos save(), delete() e update() métodos únicos para cada classe que retornam instruções SQL para salvar, deletar e atualizar os dados, respectivamente, em um banco de dados hipotético.
-
-## ✒️ Autores
-
-* **Giovanni Galli** - *Trabalho Inicial* - Tarefa Abstrata 2
-
+```bash
+javac Main.java
