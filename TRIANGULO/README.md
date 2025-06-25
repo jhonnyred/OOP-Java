@@ -1,40 +1,45 @@
-# Triângulo
+# Triangle
 
-O projeto consiste em uma unica classe FuncoesUteis, além da classe main, trata-se de uma classe abstrata. A classe com sues métodos são:
-* FuncoesUteis
- - soma(int a, int b)
- Soma os inteiros a e b
- - triangulo(int altura)
- 'printa' um triangulo de asteriscos com a altura especificada
- - printArquivo(String name)
- 'printa' um arquivo com o nome especificado
+The project consists of a single abstract class FuncoesUteis, plus the main class. The class and its methods are:  
+* FuncoesUteis  
+  - sum(int a, int b)  
+    Sums the integers a and b  
+  - triangle(int height)  
+    Prints a triangle of asterisks with the specified height  
+  - printFile(String name)  
+    Prints a file with the specified name  
 
-### 📋 Pré-requisitos
+### 📋 Requirements
 
-É necessário ter java instalado e demais dependencias (no caso de Linux é necessário que instale jdk-23_linux-x64_bin.deb)
+Java and dependencies must be installed.  
+(If on Linux, install jdk-23_linux-x64_bin.deb)  
 
-### 🔧 Instalação
+### 🔧 Installation
 
-Para a utilização de projeto é necessário executa-lo através do Visual Studio code ou através do comando "java" direto numa shell Linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
+To run the project, use Visual Studio Code or run via command line in Linux shell using:  
 
-## 🛠️ Construído com
+```bash
+javac Main.java
+java Main
+```  
 
-Ferramentas utilizadas e bibliotecas
+### 🛠️ Built With
 
-* IDE Visual Studio
+Tools and libraries used:  
 
-## 📌 Versão
+* Visual Studio IDE  
 
-* **Versão 1.0** O projeto consiste em uma unica classe FuncoesUteis, além da classe main, trata-se de uma classe abstrata. A classe com sues métodos são:
-* FuncoesUteis
- - soma(int a, int b)
- Soma os inteiros a e b
- - triangulo(int altura)
- 'printa' um triangulo de asteriscos com a altura especificada
- - printArquivo(String name)
- 'printa' um arquivo com o nome especificado
+### 📌 Version
 
-## ✒️ Autores
+* **Version 1.0** The project consists of a single abstract class FuncoesUteis, plus the main class. The class and its methods are:  
+* FuncoesUteis  
+  - sum(int a, int b)  
+    Sums the integers a and b  
+  - triangle(int height)  
+    Prints a triangle of asterisks with the specified height  
+  - printFile(String name)  
+    Prints a file with the specified name  
 
-* **Giovanni Galli** - *Trabalho Inicial* - Triangulo
+### ✒️ Authors
 
+* **Giovanni Galli** - *Initial Work* - Triangle
