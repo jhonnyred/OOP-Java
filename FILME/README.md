@@ -1,50 +1,33 @@
-# FILME
+# MOVIE
 
-O projeto consiste em somente uma classe (FIlme) e um enum (GENERO) em que na classe estão os atributos:
-* titulo
-* duracao
-* genero
+This project consists of a single class (**Filme**) and an enum (**GENERO**).  
+The class has the following attributes:  
+- title  
+- duration  
+- genre  
 
-E métodos:
-* getTitulo
-* setTitulo
-* getDuracao
-* setDuracao
-* getGenero
-* setGenero
+And the methods:  
+- getTitle  
+- setTitle  
+- getDuration  
+- setDuration  
+- getGenre  
+- setGenre  
 
-E no enum estão os gêneros:
-* TERROR
-* COMEDIA
-* ROMANCE
+The enum defines the genres:  
+- HORROR  
+- COMEDY  
+- ROMANCE  
 
-### 📋 Pré-requisitos
+### 📋 Requirements
 
-É necessário ter java instalado e demais dependencias (no caso de Linux é necessário que instale jdk-23_linux-x64_bin.deb)
+You must have Java installed and all required dependencies.  
+(If you're on Linux, make sure to install `jdk-23_linux-x64_bin.deb`)
 
-### 🔧 Instalação
+### 🔧 Installation
 
-Para a utilização de projeto é necessário executa-lo através do Visual Studio code ou através do comando "java" direto numa shell Linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
+To run the project, you can use **Visual Studio Code** or run it directly from a Linux shell using the `java` command.  
+To do this, first compile the files with:
 
-## 🛠️ Construído com
-
-Ferramentas utilizadas e bibliotecas
-
-* IDE Visual Studio
-
-## 📌 Versão
-
-* **Versão 1.0** O projeto consiste em somente uma classe (FIlme) e um enum (GENERO) em que na classe estão os métodos:
-* titulo
-* duracao
-* genero
-
-E no enum estão os gêneros:
-* TERROR
-* COMEDIA
-* ROMANCE
-
-## ✒️ Autores
-
-* **Giovanni Galli** - *Trabalho Inicial* - Tarefa etapa 03
-
+```bash
+javac Main.java
