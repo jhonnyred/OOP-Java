@@ -1,48 +1,26 @@
-# ABSTRATA_CONTA
+# ABSTRATA_CONTA (Abstract Account)
 
-Este projeto consiste em um sistema hipotético para um banco. O projeto consiste em 3 classes com os respetivos atributos:
-* ContaBancaria (super abstrata)
+This project is a hypothetical banking system. It includes 3 classes with their respective attributes:
 
-* ContaCorrente (subclasse concreta)
-    - nome
-    - numero
+- **ContaBancaria** (abstract superclass)
+- **ContaCorrente** (concrete subclass)  
+  - name  
+  - number  
+- **ContaPoupanca** (concrete subclass)  
+  - name  
+  - number  
 
-* ContaPoupanca (subclasse concreta)
-    - nome
-    - numero
+All classes have the methods `withdraw(double)`, `deposit(double)`, and `checkBalance()` inherited from the superclass.
 
-Todas as classes possuem os métodos saque(double), deposito(double) e consulta() herdados da classe super.
+### 📋 Requirements
 
-### 📋 Pré-requisitos
+You must have Java installed and all required dependencies.  
+(If you're on Linux, make sure to install `jdk-23_linux-x64_bin.deb`)
 
-É necessário ter java instalado e demais dependencias (no caso de Linux é necessário que instale jdk-23_linux-x64_bin.deb)
+### 🔧 Installation
 
-### 🔧 Instalação
+To run the project, you can use **Visual Studio Code** or run it directly from a Linux shell using the `java` command.  
+To do this, first compile the files with:
 
-Para a utilização de projeto é necessário executa-lo através do Visual Studio code ou através do comando "java" direto numa shell Linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
-
-## 🛠️ Construído com
-
-Ferramentas utilizadas e bibliotecas
-
-* IDE Visual Studio
-
-## 📌 Versão
-
-* **Versão 1.0** Este projeto consiste em um sistema hipotético para um banco. O projeto consiste em 3 classes com os respetivos atributos:
-* ContaBancaria (super abstrata)
-
-* ContaCorrente (subclasse concreta)
-    - nome
-    - numero
-
-* ContaPoupanca (subclasse concreta)
-    - nome
-    - numero
-
-Todas as classes possuem os métodos saque(double), deposito(double) e consulta() herdados da classe super.
-
-## ✒️ Autores
-
-* **Giovanni Galli** - *Trabalho Inicial* - Tarefa Abstrata Conta bancaria
-
+```bash
+javac Main.java
