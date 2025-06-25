@@ -1,13 +1,13 @@
-# METHODS
+# ACCOUNT
 
-This project consists of a single class (**Conta**) with the following attributes:  
+This project consists of a single class (**Conta**) which contains the following attributes:  
 - balance  
 - consultationFee  
 
 And the methods:  
-- getConsultation  
-- setDeposit  
-- setWithdrawal  
+- getConsulta  
+- setDeposito  
+- setSaque  
 
 ### 📋 Requirements
 
@@ -21,3 +21,25 @@ To do this, first compile the files with:
 
 ```bash
 javac Main.java
+```
+
+### 🛠️ Built With
+
+Tools and libraries used:
+
+- **Visual Studio Code IDE**
+
+### 📌 Version
+
+- **Version 1.0** – This project consists of a single class (**Conta**) which contains the following attributes:  
+  - balance  
+  - consultationFee  
+
+And the methods:  
+- getConsulta  
+- setDeposito  
+- setSaque  
+
+### ✒️ Authors
+
+- **Giovanni Galli** – *Initial Work* – Task 6
