@@ -1,48 +1,57 @@
-# MÉTODOS
+# PRODUCT
 
-Esse projeto contém 2 classes Produto e Pessoa. 
-Produto contendo os atributos: 
-* nome 
-* custo 
-* venda 
-* lucro 
-Pessoa contendo os atributos: 
-* complete_name 
-* altura 
-* data (ano de nascimento) 
-* idade 
-* email
+This project contains 2 classes: **Product** and **Person**.  
 
-### 📋 Pré-requisitos
+**Product** has the attributes:  
+- name  
+- cost  
+- sale  
+- profit  
 
-É necessário ter java instalado e demais dependencias (no caso de linux é necessário que instale jdk-23_linux-x64_bin.deb)
+**Person** has the attributes:  
+- complete_name  
+- height  
+- date (year of birth)  
+- age  
+- email  
 
-### 🔧 Instalação
+### 📋 Requirements
 
-Para a utilização de projeto é necessário executa-lo através do Visual Studio code ou através do comando "java" direto numa shell linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
+You must have Java installed and all required dependencies.  
+(If you're on Linux, make sure to install `jdk-23_linux-x64_bin.deb`)
 
-## 🛠️ Construído com
+### 🔧 Installation
 
-Ferramentas utilizadas e bibliotecas
+To run the project, you can use **Visual Studio Code** or run it directly from a Linux shell using the `java` command.  
+To do this, first compile the files with:
 
-* IDE Visual Studio
+```bash
+javac Main.java
+```
 
-## 📌 Versão
+### 🛠️ Built With
 
-* **Versão 1.0** Esse projeto contém 2 classes Produto e Pessoa. 
-Produto contendo os atributos: 
-* nome 
-* custo 
-* venda 
-* lucro 
-Pessoa contendo os atributos: 
-* complete_name 
-* altura 
-* data (ano de nascimento) 
-* idade 
-* email
+Tools and libraries used:
 
-## ✒️ Autores
+- **Visual Studio Code IDE**
 
-* **Giovanni Galli** - *Trabalho Inicial* - Tarefa 1
+### 📌 Version
 
+- **Version 1.0** This project contains 2 classes: **Product** and **Person**.  
+
+**Product** has the attributes:  
+- name  
+- cost  
+- sale  
+- profit  
+
+**Person** has the attributes:  
+- complete_name  
+- height  
+- date (year of birth)  
+- age  
+- email  
+
+### ✒️ Authors
+
+- **Giovanni Galli** – *Initial Work* – Task 1
