@@ -1,12 +1,12 @@
-# Conversion Library
+# CONVERSION LIBRARY
 
 This project consists of a single static class for unit conversions.  
-The class has no attributes, and the methods are:  
+The class has no attributes, only the following methods:  
 - celsiusToFahrenheit  
 - kilometersToMiles  
 - gramsToPounds  
 
-![UML diagram screenshot](\imagem\diagrama.png)
+[Screenshot of the UML diagram](\imagem\diagrama.png)
 
 ### 📋 Requirements
 
@@ -20,3 +20,22 @@ To do this, first compile the files with:
 
 ```bash
 javac Main.java
+```
+
+### 🛠️ Built With
+
+Tools and libraries used:
+
+- **Visual Studio Code IDE**
+
+### 📌 Version
+
+- **Version 1.0** – This project consists of a single static class for unit conversions.  
+  The class has no attributes, only the following methods:  
+  - celsiusToFahrenheit  
+  - kilometersToMiles  
+  - gramsToPounds  
+
+### ✒️ Authors
+
+- **Giovanni Galli** – *Initial Work* – Task 4
