@@ -1,16 +1,8 @@
-# ABSTRATA_CONTA (Abstract Account)
+# INTERFACE
 
-This project is a hypothetical banking system. It includes 3 classes with their respective attributes:
-
-- **ContaBancaria** (abstract superclass)
-- **ContaCorrente** (concrete subclass)  
-  - name  
-  - number  
-- **ContaPoupanca** (concrete subclass)  
-  - name  
-  - number  
-
-All classes have the methods `withdraw(double)`, `deposit(double)`, and `checkBalance()` inherited from the superclass.
+This project consists of a single abstract class **Funcionario**, with two subclasses: **FuncionarioAssalariado** and **FuncionarioHorista**, along with the **Bonus** interface and the **Main** class.  
+All classes implement the method `calcularBonus()`.  
+The project was designed for a hypothetical business classification system.
 
 ### 📋 Requirements
 
@@ -24,29 +16,20 @@ To do this, first compile the files with:
 
 ```bash
 javac Main.java
+```
 
-🛠️ Built With
+### 🛠️ Built With
 
 Tools and libraries used:
 
-    Visual Studio Code IDE
+- **Visual Studio Code IDE**
 
-📌 Version
+### 📌 Version
 
-    Version 1.0 – This project is a hypothetical banking system. It includes 3 classes with their respective attributes:
+This project consists of a single abstract class **Funcionario**, with the subclasses **FuncionarioAssalariado** and **FuncionarioHorista**, plus the **Bonus** interface and the **Main** class.  
+All classes implement the `calcularBonus()` method.  
+The project was created for a hypothetical business classification system.
 
-        ContaBancaria (abstract superclass)
+### ✒️ Authors
 
-        ContaCorrente (concrete subclass)
-
-            name
-
-            number
-
-        ContaPoupanca (concrete subclass)
-
-            name
-
-            number
-
-All classes have the methods withdraw(double), deposit(double), and checkBalance() inherited from the superclass.
+- **Giovanni Galli** – *Initial Work* – INTERFACE Task
