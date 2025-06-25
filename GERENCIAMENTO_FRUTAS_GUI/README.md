@@ -1,6 +1,6 @@
 # FRUIT_MANAGEMENT_GUI
 
-This project consists of a practical exercise to build a graphical user interface using the Swing library, which is already included in the Java language.  
+This project is a practical exercise focused on building a graphical user interface using the Swing library, which is included by default in Java.  
 The GUI feeds a collection.
 
 ### 📋 Requirements
@@ -15,3 +15,19 @@ To do this, first compile the files with:
 
 ```bash
 javac Main.java
+```
+
+### 🛠️ Built With
+
+Tools and libraries used:
+
+- **Visual Studio Code IDE**
+
+### 📌 Version
+
+This project is a practical exercise focused on building a graphical user interface using the Swing library, which is included by default in Java.  
+The GUI feeds a collection.
+
+### ✒️ Authors
+
+- **Giovanni Galli** – *Initial Work* – Fruit Management with GUI Task
