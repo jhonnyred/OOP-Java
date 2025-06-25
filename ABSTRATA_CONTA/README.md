@@ -1,35 +1,48 @@
-# INTERFACE
+# ABSTRATA_CONTA
 
-This project consists of a single abstract class **Funcionario**, with two subclasses: **FuncionarioAssalariado** and **FuncionarioHorista**, along with the **Bonus** interface and the **Main** class.  
-All classes implement the method `calcularBonus()`.  
-The project was designed for a hypothetical business classification system.
+Este projeto consiste em um sistema hipotético para um banco. O projeto consiste em 3 classes com os respetivos atributos:
+* ContaBancaria (super abstrata)
 
-### 📋 Requirements
+* ContaCorrente (subclasse concreta)
+    - nome
+    - numero
 
-You must have Java installed and all required dependencies.  
-(If you're on Linux, make sure to install `jdk-23_linux-x64_bin.deb`)
+* ContaPoupanca (subclasse concreta)
+    - nome
+    - numero
 
-### 🔧 Installation
+Todas as classes possuem os métodos saque(double), deposito(double) e consulta() herdados da classe super.
 
-To run the project, you can use **Visual Studio Code** or run it directly from a Linux shell using the `java` command.  
-To do this, first compile the files with:
+### 📋 Pré-requisitos
 
-```bash
-javac Main.java
-```
+É necessário ter java instalado e demais dependencias (no caso de Linux é necessário que instale jdk-23_linux-x64_bin.deb)
 
-### 🛠️ Built With
+### 🔧 Instalação
 
-Tools and libraries used:
+Para a utilização de projeto é necessário executa-lo através do Visual Studio code ou através do comando "java" direto numa shell Linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
 
-- **Visual Studio Code IDE**
+## 🛠️ Construído com
 
-### 📌 Version
+Ferramentas utilizadas e bibliotecas
 
-This project consists of a single abstract class **Funcionario**, with the subclasses **FuncionarioAssalariado** and **FuncionarioHorista**, plus the **Bonus** interface and the **Main** class.  
-All classes implement the `calcularBonus()` method.  
-The project was created for a hypothetical business classification system.
+* IDE Visual Studio
 
-### ✒️ Authors
+## 📌 Versão
 
-- **Giovanni Galli** – *Initial Work* – INTERFACE Task
+* **Versão 1.0** Este projeto consiste em um sistema hipotético para um banco. O projeto consiste em 3 classes com os respetivos atributos:
+* ContaBancaria (super abstrata)
+
+* ContaCorrente (subclasse concreta)
+    - nome
+    - numero
+
+* ContaPoupanca (subclasse concreta)
+    - nome
+    - numero
+
+Todas as classes possuem os métodos saque(double), deposito(double) e consulta() herdados da classe super.
+
+## ✒️ Autores
+
+* **Giovanni Galli** - *Trabalho Inicial* - Tarefa Abstrata Conta bancaria
+
