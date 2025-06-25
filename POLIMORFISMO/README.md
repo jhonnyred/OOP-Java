@@ -1,52 +1,63 @@
-# POLIFMORFISMO
+# POLYMORPHISM
 
-O porojeto consiste em classes feitas para explorar um pouco o polimorfismo de maneira simples, existem 3 classes Pessoa (super abstrata), Professor (subclasse concreta), Aluno (subclasse concreta), com os respectivos atributos:
-* Pessoa (super abstrata)
-    - nome
-    - instituicao
-    - email
-    - idade
+The project consists of classes made to explore polymorphism in a simple way.  
+There are 3 classes: **Person** (abstract superclass), **Professor** (concrete subclass), and **Student** (concrete subclass), with the following attributes:
 
-* Professor (subclasse concreta)
-    - disciplina
+- **Person** (abstract superclass)  
+  - name  
+  - institution  
+  - email  
+  - age  
 
-* Aluno (subclasse concreta)
-    - ano
+- **Professor** (concrete subclass)  
+  - subject  
 
-A classe Pessoa possui o método super gerarEmail(), responsável por gerar o email caso esse não seja inputado nos contrutores, todas as classes possuem o método saudacoes que possuem suas respectivas variações para cada subclasse.
+- **Student** (concrete subclass)  
+  - year  
 
-### 📋 Pré-requisitos
+The **Person** class has the super method `generateEmail()`, responsible for generating the email if it is not provided in the constructors.  
+All classes have the method `greetings()`, with their respective variations for each subclass.
 
-É necessário ter java instalado e demais dependencias (no caso de Linux é necessário que instale jdk-23_linux-x64_bin.deb)
+### 📋 Requirements
 
-### 🔧 Instalação
+You must have Java installed and all required dependencies.  
+(If you're on Linux, make sure to install `jdk-23_linux-x64_bin.deb`)
 
-Para a utilização de projeto é necessário executa-lo através do Visual Studio code ou através do comando "java" direto numa shell Linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
+### 🔧 Installation
 
-## 🛠️ Construído com
+To run the project, you can use **Visual Studio Code** or run it directly from a Linux shell using the `java` command.  
+To do this, first compile the files with:
 
-Ferramentas utilizadas e bibliotecas
+```bash
+javac Main.java
+```
 
-* IDE Visual Studio
+### 🛠️ Built With
 
-## 📌 Versão
+Tools and libraries used:
 
-* **Versão 1.0** O porojeto consiste em classes feitas para explorar um pouco o polimorfismo de maneira simples, existem 3 classes Pessoa (super abstrata), Professor (subclasse concreta), Aluno (subclasse concreta), com os respectivos atributos:
-* Pessoa (super abstrata)
-    - nome
-    - instituicao
-    - email
-    - idade
+- **Visual Studio Code IDE**
 
-* Professor (subclasse concreta)
-    - disciplina
+### 📌 Version
 
-* Aluno (subclasse concreta)
-    - ano
+- **Version 1.0** The project consists of classes made to explore polymorphism in a simple way.  
+There are 3 classes: **Person** (abstract superclass), **Professor** (concrete subclass), and **Student** (concrete subclass), with the following attributes:
 
-A classe Pessoa possui o método super gerarEmail(), responsável por gerar o email caso esse não seja inputado nos contrutores, todas as classes possuem o método saudacoes que possuem suas respectivas variações para cada subclasse.
+- **Person** (abstract superclass)  
+  - name  
+  - institution  
+  - email  
+  - age  
 
-## ✒️ Autores
+- **Professor** (concrete subclass)  
+  - subject  
 
-* **Giovanni Galli** - *Trabalho Inicial* - Tarefa Polimorfismo
+- **Student** (concrete subclass)  
+  - year  
 
+The **Person** class has the super method `generateEmail()`, responsible for generating the email if it is not provided in the constructors.  
+All classes have the method `greetings()`, with their respective variations for each subclass.
+
+### ✒️ Authors
+
+- **Giovanni Galli** – *Initial Work* – Polymorphism Task
