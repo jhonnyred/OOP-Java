@@ -1,15 +1,12 @@
 # FRUIT_MANAGEMENT_CLI
 
 This project is a fruit manager with a CLI (Command Line Interface).  
-It consists of only two classes: **Main** and a utility class to assist in menu development.
+It consists of only two classes: **Main** and a utility class to help with menu development.
 
 - **Utilities:**  
-  - `clear()`  
-    clears the console  
-  - `eixoX()`  
-    prints `"\n"` 14 times  
-  - `eixoY()`  
-    returns a string of spaces  
+  - `clear()` – clears the console  
+  - `eixoX()` – prints `"\n"` 14 times  
+  - `eixoY()` – returns a string of spaces  
 
 ### 📋 Requirements
 
@@ -23,3 +20,24 @@ To do this, first compile the files with:
 
 ```bash
 javac Main.java
+```
+
+### 🛠️ Built With
+
+Tools and libraries used:
+
+- **Visual Studio Code IDE**
+
+### 📌 Version
+
+- **Version 1.0** – This project is a fruit manager with a CLI (Command Line Interface).  
+It consists of only two classes: **Main** and a utility class to help with menu development.
+
+- **Utilities:**  
+  - `clear()` – clears the console  
+  - `eixoX()` – prints `"\n"` 14 times  
+  - `eixoY()` – returns a string of spaces  
+
+### ✒️ Authors
+
+- **Giovanni Galli** – *Initial Work* – Fruit Management CLI
