@@ -6,7 +6,7 @@ The class has no attributes, and the methods are:
 - kilometersToMiles  
 - gramsToPounds  
 
-![UML diagram screenshot](imagem\diagrama.png)
+![UML diagram screenshot](\imagem\diagrama.png)
 
 ### 📋 Requirements
 
