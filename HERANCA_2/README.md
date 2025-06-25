@@ -1,88 +1,47 @@
-# HERANÇA_2
+# INHERITANCE_2
 
-projeto consiste em um arranjo de calsses hipotético para uma empresa, onde há 4 personas hipotéticas, Funcionário, Gerente, Vendedor e Cliente as classes com seus respectivos atributos são:
-* Pessoa (super):
- - nome
- - cpf
- - nascimento
+This project is a hypothetical class arrangement for a company, featuring four personas: Employee, Manager, Salesperson, and Client.  
+The classes and their respective attributes are:
 
- *MÉTODOS*: 
-    - formatLocal(String data)
-    Converte String em LocalDate
+- **Person** (superclass):  
+  - name  
+  - cpf  
+  - birthDate  
 
-    - formatStr(LocalDate data)
-    Converte LocalDate em String
+  **METHODS**:  
+  - `formatLocal(String date)`  
+    Converts a String to LocalDate  
+  - `formatStr(LocalDate date)`  
+    Converts a LocalDate to String  
+  - `printAll()`  
+    Returns a String with all attributes  
 
-    - printaTudo()
-    Saída em String para os atributos da classe
+- **Client** (subclass of Person):  
+  - email  
+  - phone  
+  - loyaltyPoints  
 
-* Cliente (subclasse de Pessoa)
- - email
- - telefone
- - fidelidade
+- **Employee** (subclass of Person):  
+  - hiringDate  
+  - salary  
 
-* Funcionario (subclasse de Pessoa)
- - contratacao
- - salario
+- **Manager** (subclass of Employee):  
+  - department  
 
-* Gerente (subclasse de Funcionario)
- - departamento
+- **Salesperson** (subclass of Employee):  
+  - commission  
 
-* Vendedor (subclasse de Funcionario)
- - comissao
+All classes have their respective getters and setters, and the method `printAll()` is overridden from the Person class.
 
-As classes pessuem seus respectivos getters e setters, além de um método sobreposto de printaTudo() presente na classe Pessoa()
+### 📋 Requirements
 
-### 📋 Pré-requisitos
+You must have Java installed and all required dependencies.  
+(If you're on Linux, make sure to install `jdk-23_linux-x64_bin.deb`)
 
-É necessário ter java instalado e demais dependencias (no caso de Linux é necessário que instale jdk-23_linux-x64_bin.deb)
+### 🔧 Installation
 
-### 🔧 Instalação
+To run the project, you can use **Visual Studio Code** or run it directly from a Linux shell using the `java` command.  
+To do this, first compile the files with:
 
-Para a utilização de projeto é necessário executa-lo através do Visual Studio code ou através do comando "java" direto numa shell Linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
-
-## 🛠️ Construído com
-
-Ferramentas utilizadas e bibliotecas
-
-* IDE Visual Studio
-
-## 📌 Versão
-
-* **Versão 1.0** projeto consiste em um arranjo de calsses hipotético para uma empresa, onde há 4 personas hipotéticas, Funcionário, Gerente, Vendedor e Cliente as classes com seus respectivos atributos são:
-* Pessoa (super):
- - nome
- - cpf
- - nascimento
-
- *MÉTODOS*: 
-    - formatLocal(String data)
-    Converte String em LocalDate
-
-    - formatStr(LocalDate data)
-    Converte LocalDate em String
-
-    - printaTudo()
-    Saída em String para os atributos da classe
-
-* Cliente (subclasse de Pessoa)
- - email
- - telefone
- - fidelidade
-
-* Funcionario (subclasse de Pessoa)
- - contratacao
- - salario
-
-* Gerente (subclasse de Funcionario)
- - departamento
-
-* Vendedor (subclasse de Funcionario)
- - comissao
-
-As classes pessuem seus respectivos getters e setters, além de um método sobreposto de printaTudo() presente na classe Pessoa()
-
-## ✒️ Autores
-
-* **Giovanni Galli** - *Trabalho Inicial* - Tarefa Herança 2
-
+```bash
+javac Main.java
