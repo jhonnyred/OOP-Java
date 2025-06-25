@@ -1,8 +1,9 @@
 # INTERFACE
 
-This project consists of a single abstract class **Funcionario**, with two subclasses: **FuncionarioAssalariado** and **FuncionarioHorista**, along with the **Bonus** interface and the **Main** class.  
-All classes implement the method `calcularBonus()`.  
-The project was designed for a hypothetical business classification system.
+This project consists of a single abstract class (**Employee**) with two subclasses: **SalariedEmployee** and **HourlyEmployee**,  
+plus the **Bonus** interface and **Main** class.  
+All classes implement the `calculateBonus()` method.  
+The project was created for a hypothetical business classification system.
 
 ### 📋 Requirements
 
@@ -16,3 +17,21 @@ To do this, first compile the files with:
 
 ```bash
 javac Main.java
+```
+
+### 🛠️ Built With
+
+Tools and libraries used:
+
+- **Visual Studio Code IDE**
+
+### 📌 Version
+
+This project consists of a single abstract class (**Employee**) with two subclasses: **SalariedEmployee** and **HourlyEmployee**,  
+plus the **Bonus** interface and **Main** class.  
+All classes implement the `calculateBonus()` method.  
+The project was created for a hypothetical business classification system.
+
+### ✒️ Authors
+
+- **Giovanni Galli** – *Initial Work* – INTERFACE Task
