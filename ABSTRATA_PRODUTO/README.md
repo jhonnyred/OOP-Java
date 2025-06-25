@@ -1,24 +1,24 @@
-# ABSTRATA_PRODUTO (Abstract Product)
+# ABSTRACT_PRODUCT
 
-This project is a hypothetical class arrangement for an inventory system.  
-It includes an abstract class (**Produto**) and two concrete classes (**ProdutoAlimenticio** and **ProdutoVestuario**) with the following attributes:
+This project is a hypothetical class structure for an inventory system.  
+It includes one abstract class (**Product**) and two concrete subclasses (**FoodProduct** and **ClothingProduct**) with the following attributes:
 
-- **Produto** (superclass)
+- **Product** (superclass)  
   - name  
   - cost  
   - salePrice  
 
-- **ProdutoAlimenticio** (subclass)
+- **FoodProduct** (subclass)  
   - expirationDate  
   - nutritionalInfo  
 
-- **ProdutoVestuario** (subclass)
+- **ClothingProduct** (subclass)  
   - size  
   - color  
   - material  
 
-All the classes above share the same methods.  
-The method `calculateProfit()` is overridden in the subclasses, and the methods `save()`, `delete()`, and `update()` are unique to each class, returning SQL statements to save, delete, and update data in a hypothetical database.
+All classes share common methods. The method `calculateProfit()` is overridden in the subclasses.  
+Each class also has unique methods: `save()`, `delete()`, and `update()` that return SQL instructions to interact with a hypothetical database.
 
 ### 📋 Requirements
 
@@ -32,3 +32,33 @@ To do this, first compile the files with:
 
 ```bash
 javac Main.java
+```
+
+### 🛠️ Built With
+
+Tools and libraries used:
+
+- **Visual Studio Code IDE**
+
+### 📌 Version
+
+- **Version 1.0** – This project is a hypothetical class structure for an inventory system, with:  
+  - **Product** (superclass):  
+    - name  
+    - cost  
+    - salePrice  
+
+  - **FoodProduct**:  
+    - expirationDate  
+    - nutritionalInfo  
+
+  - **ClothingProduct**:  
+    - size  
+    - color  
+    - material  
+
+All classes implement `calculateProfit()`, and have specific methods (`save()`, `delete()`, `update()`) that return SQL statements for a hypothetical database.
+
+### ✒️ Authors
+
+- **Giovanni Galli** – *Initial Work* – Abstract Task 2
