@@ -1,42 +1,47 @@
-# UNIVERSIDADE
+# UNIVERSITY
 
-Esse projeto contém 1 classe Aluno que possui os atributos:
-* nome
-* ra
-* notaFinal
-* status
+This project contains 1 class Aluno with the attributes:  
+* nome  
+* ra  
+* finalGrade  
+* status  
 
-E os métodos:
-* disciplina
-* ficha
+And the methods:  
+* subject  
+* record  
 
-### 📋 Pré-requisitos
+### 📋 Requirements
 
-É necessário ter java instalado e demais dependência para java em sua IDE (no caso de linux é necessário que instale jdk-23_linux-x64_bin.deb)
+Java and Java dependencies must be installed in your IDE.  
+(If on Linux, install jdk-23_linux-x64_bin.deb)  
 
-### 🔧 Instalação
+### 🔧 Installation
 
-Para a utilização de projeto é necessário executa-lo através do Visual Studio code com as extensões java ou através do comando "java" direto numa shell linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
+To run the project, use Visual Studio Code with Java extensions or run via command line in Linux shell using:  
 
-## 🛠️ Construído com
+```bash
+javac Main.java
+java Main
+```  
 
-Ferramentas utilizadas e bibliotecas
+## 🛠️ Built With
 
-* IDE Visual Studio
+Tools and libraries used:  
 
-## 📌 Versão
+* Visual Studio IDE  
 
-* **Versão 1.0** Esse projeto contém 1 classe Aluno que possui os atributos:
-* nome
-* ra
-* notaFinal
-* status
+## 📌 Version
 
-E os métodos:
-* disciplina
-* ficha
+* **Version 1.0** This project contains 1 class Aluno with the attributes:  
+* nome  
+* ra  
+* finalGrade  
+* status  
 
-## ✒️ Autores
+And the methods:  
+* subject  
+* record  
 
-* **Giovanni Galli** - *Trabalho Inicial* - Tarefa 1
+## ✒️ Authors
 
+* **Giovanni Galli** - *Initial Work* - Task 1
