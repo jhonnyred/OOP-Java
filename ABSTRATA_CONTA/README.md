@@ -24,3 +24,29 @@ To do this, first compile the files with:
 
 ```bash
 javac Main.java
+
+🛠️ Built With
+
+Tools and libraries used:
+
+    Visual Studio Code IDE
+
+📌 Version
+
+    Version 1.0 – This project is a hypothetical banking system. It includes 3 classes with their respective attributes:
+
+        ContaBancaria (abstract superclass)
+
+        ContaCorrente (concrete subclass)
+
+            name
+
+            number
+
+        ContaPoupanca (concrete subclass)
+
+            name
+
+            number
+
+All classes have the methods withdraw(double), deposit(double), and checkBalance() inherited from the superclass.
