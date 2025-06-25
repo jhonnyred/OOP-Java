@@ -1,26 +1,18 @@
 # INTERFACE
 
-O projeto consiste em uma única classe abstrata Funcionario com as demais sub-classes FuncionarioAssalariado e FuncionarioHorista, além da interface Bonus e Main, todas as classes possuem o método calcularBonus(). O projeto foi elaborado para um sistema hipotético de classificação empresarial.
+This project consists of a single abstract class **Funcionario**, with two subclasses: **FuncionarioAssalariado** and **FuncionarioHorista**, along with the **Bonus** interface and the **Main** class.  
+All classes implement the method `calcularBonus()`.  
+The project was designed for a hypothetical business classification system.
 
-### 📋 Pré-requisitos
+### 📋 Requirements
 
-É necessário ter java instalado e demais dependencias (no caso de linux é necessário que instale jdk-23_linux-x64_bin.deb)
+You must have Java installed and all required dependencies.  
+(If you're on Linux, make sure to install `jdk-23_linux-x64_bin.deb`)
 
-### 🔧 Instalação
+### 🔧 Installation
 
-Para a utilização de projeto é necessário executa-lo através do Visual Studio code ou através do comando "java" direto numa shell linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
+To run the project, you can use **Visual Studio Code** or run it directly from a Linux shell using the `java` command.  
+To do this, first compile the files with:
 
-## 🛠️ Construído com
-
-Ferramentas utilizadas e bibliotecas
-
-* IDE Visual Studio
-
-## 📌 Versão
-
-O projeto consiste em uma única classe abstrata Funcionario com as demais sub-classes FuncionarioAssalariado e FuncionarioHorista, além da interface Bonus e Main, todas as classes possuem o método calcularBonus(). O projeto foi elaborado para um sistema hipotético de classificação empresarial.
-
-## ✒️ Autores
-
-* **Giovanni Galli** - *Trabalho Inicial* - Tarefa INTERFACE
-
+```bash
+javac Main.java
