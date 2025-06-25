@@ -1,40 +1,25 @@
-# GERENCIAMENTO_FRUTAS_CLI
+# FRUIT_MANAGEMENT_CLI
 
-O projeto consiste em um gerenciador de frutas com uma interface CLI (Command Line Interface). O projeto consiste em apenas duas classes, a Main e uma classe Utilidades para auxiliar no desenvovimento do menu.
-* Utilidades:
-    - clear()
-    limpa o console
-    - eixoX()
-    'printa' 14 vezes "\n"
-    - eixoY()
-    retorna uma String de espaços
+This project is a fruit manager with a CLI (Command Line Interface).  
+It consists of only two classes: **Main** and a utility class to assist in menu development.
 
-### 📋 Pré-requisitos
+- **Utilities:**  
+  - `clear()`  
+    clears the console  
+  - `eixoX()`  
+    prints `"\n"` 14 times  
+  - `eixoY()`  
+    returns a string of spaces  
 
-É necessário ter java instalado e demais dependencias (no caso de Linux é necessário que instale jdk-23_linux-x64_bin.deb)
+### 📋 Requirements
 
-### 🔧 Instalação
+You must have Java installed and all required dependencies.  
+(If you're on Linux, make sure to install `jdk-23_linux-x64_bin.deb`)
 
-Para a utilização de projeto é necessário executa-lo através do Visual Studio code ou através do comando "java" direto numa shell Linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
+### 🔧 Installation
 
-## 🛠️ Construído com
+To run the project, you can use **Visual Studio Code** or run it directly from a Linux shell using the `java` command.  
+To do this, first compile the files with:
 
-Ferramentas utilizadas e bibliotecas
-
-* IDE Visual Studio
-
-## 📌 Versão
-
-* **Versão 1.0** O projeto consiste em um gerenciador de frutas com uma interface CLI (Command Line Interface). O projeto consiste em apenas duas classes, a Main e uma classe Utilidades para auxiliar no desenvovimento do menu.
-* Utilidades:
-    - clear()
-    limpa o console
-    - eixoX()
-    'printa' 14 vezes "\n"
-    - eixoY()
-    retorna uma String de espaços
-
-## ✒️ Autores
-
-* **Giovanni Galli** - *Trabalho Inicial* - Gerenciamento de frutas CLI
-
+```bash
+javac Main.java
