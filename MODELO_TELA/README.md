@@ -1,26 +1,33 @@
-# MODELO_TELA
+# SCREEN_MODEL
 
-Este projeto consiste na elaboração de um exercício prático para a elaboração de uma interface gráfica utilizando a biblioteca Swing já inclusa na linguagem Java, possui comente uma classe min AWTTestSwing.
+This project consists of a practical exercise to develop a graphical interface using the Swing library included in Java.  
+It contains only one class: **AWTTestSwing**.
 
-### 📋 Pré-requisitos
+### 📋 Requirements
 
-É necessário ter java instalado e demais dependencias (no caso de linux é necessário que instale jdk-23_linux-x64_bin.deb)
+You must have Java installed and all required dependencies.  
+(If you're on Linux, make sure to install `jdk-23_linux-x64_bin.deb`)
 
-### 🔧 Instalação
+### 🔧 Installation
 
-Para a utilização de projeto é necessário executa-lo através do Visual Studio code ou através do comando "java" direto numa shell linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
+To run the project, you can use **Visual Studio Code** or run it directly from a Linux shell using the `java` command.  
+To do this, first compile the files with:
 
-## 🛠️ Construído com
+```bash
+javac Main.java
+```
 
-Ferramentas utilizadas e bibliotecas
+### 🛠️ Built With
 
-* IDE Visual Studio
+Tools and libraries used:
 
-## 📌 Versão
+- **Visual Studio Code IDE**
 
-Este projeto consiste na elaboração de um exercício prático para a elaboração de uma interface gráfica utilizando a biblioteca Swing já inclusa na linguagem Java, possui comente uma classe min AWTTestSwing.
+### 📌 Version
 
-## ✒️ Autores
+This project consists of a practical exercise to develop a graphical interface using the Swing library included in Java.  
+It contains only one class: **AWTTestSwing**.
 
-* **Giovanni Galli** - *Trabalho Inicial* - Tarefa MODELO_TELA
+### ✒️ Authors
 
+- **Giovanni Galli** – *Initial Work* – SCREEN_MODEL Task
