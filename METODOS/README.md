@@ -1,38 +1,43 @@
-# MÉTODOS
+# METHODS
 
-O projeto consiste em somente um única classe Aula02 em que nele estão os métodos:
-* Positivo ou Negativo
-* Média Aritimética
-* Maior entre 3 números
-* Número Elevado
-* Horas e Minutos
-* Número Fatorial
+This project consists of a single class (**Aula02**) which contains the following methods:  
+- Positive or Negative  
+- Arithmetic Mean  
+- Largest of 3 Numbers  
+- Number Raised  
+- Hours and Minutes  
+- Factorial Number  
 
-### 📋 Pré-requisitos
+### 📋 Requirements
 
-É necessário ter java instalado e demais dependencias (no caso de linux é necessário que instale jdk-23_linux-x64_bin.deb)
+You must have Java installed and all required dependencies.  
+(If you're on Linux, make sure to install `jdk-23_linux-x64_bin.deb`)
 
-### 🔧 Instalação
+### 🔧 Installation
 
-Para a utilização de projeto é necessário executa-lo através do Visual Studio code ou através do comando "java" direto numa shell linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
+To run the project, you can use **Visual Studio Code** or run it directly from a Linux shell using the `java` command.  
+To do this, first compile the files with:
 
-## 🛠️ Construído com
+```bash
+javac Main.java
+```
 
-Ferramentas utilizadas e bibliotecas
+### 🛠️ Built With
 
-* IDE Visual Studio
+Tools and libraries used:
 
-## 📌 Versão
+- **Visual Studio Code IDE**
 
-* **Versão 1.0** O projeto consiste em somente um única classe Aula02 em que nele estão os métodos:
-* Positivo ou Negativo
-* Média Aritimética
-* Maior entre 3 números
-* Número Elevado
-* Horas e Minutos
-* Número Fatorial
+### 📌 Version
 
-## ✒️ Autores
+- **Version 1.0** – This project consists of a single class (**Aula02**) which contains the following methods:  
+  - Positive or Negative  
+  - Arithmetic Mean  
+  - Largest of 3 Numbers  
+  - Number Raised  
+  - Hours and Minutes  
+  - Factorial Number  
 
-* **Giovanni Galli** - *Trabalho Inicial* - Tarefa 2
+### ✒️ Authors
 
+- **Giovanni Galli** – *Initial Work* – Task 2
