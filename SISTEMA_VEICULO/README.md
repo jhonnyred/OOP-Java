@@ -1,100 +1,105 @@
-# SISTEMA_VEICULO
+# VEHICLE_SYSTEM
 
-O projeto consiste em um arranjo de calsses hipotético para um sistema de classificação de veículos composto por 7 classes e uma classe main. As classes e seus respectivos atributos são:
+The project consists of a hypothetical arrangement of classes for a vehicle classification system composed of 7 classes and a main class. The classes and their respective attributes are:
 
-* Veiculo (super):
- - modelo
- - fabricacao
+* Vehicle (superclass):  
+  - model  
+  - manufacture  
 
-* Bicileta (subclasse Veiculo):
- - marca
- - cor
- - material
- - marcha
- - amortecedor
+* Bicycle (subclass of Vehicle):  
+  - brand  
+  - color  
+  - material  
+  - gear  
+  - shock absorber  
 
-* Skate (subclasse Veiculo):
- - marca
- - cor
- - dureza
- - diametro
+* Skateboard (subclass of Vehicle):  
+  - brand  
+  - color  
+  - hardness  
+  - diameter  
 
-* Automotor (subclasse Veiculo):
- - montadora
- - cor
- - kilometragem
+* MotorizedVehicle (subclass of Vehicle):  
+  - manufacturer  
+  - color  
+  - mileage  
 
-* Caminhao (subclasse Automotor):
- - eixo
- - peso
+* Truck (subclass of MotorizedVehicle):  
+  - axle  
+  - weight  
 
-* Domestico (subclasse Automotor):
- - passageiros
- - freio
- - airbag
+* Domestic (subclass of MotorizedVehicle):  
+  - passengers  
+  - brake  
+  - airbag  
 
-* Motocicleta (subclasse Automotor):
- - cilindradas
- - torque
+* Motorcycle (subclass of MotorizedVehicle):  
+  - displacement  
+  - torque  
 
+All classes have the method `printAll()` inherited from Vehicle that returns all the class attributes as a String and the method `insert()` which returns a string with an SQL command to insert the class data into a table named after the respective class.
 
-Todas as classes possuem o método printaTudo() herdado de Veiculos que retorna todos os atributos da classe em String e o método insert() que retorna uma string com um comando SQL para inserir as informações dessa classe em uma tabela com o nome da respectiva classe.
+### 📋 Requirements
 
-### 📋 Pré-requisitos
+You must have Java installed and all required dependencies.  
+(If you use Linux, install `jdk-23_linux-x64_bin.deb`)
 
-É necessário ter java instalado e demais dependencias (no caso de Linux é necessário que instale jdk-23_linux-x64_bin.deb)
+### 🔧 Installation
 
-### 🔧 Instalação
+To run the project, you can use Visual Studio Code or run it directly in a Linux shell using the `java` command.  
+First, compile the files with:
 
-Para a utilização de projeto é necessário executa-lo através do Visual Studio code ou através do comando "java" direto numa shell Linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
+```bash
+javac Main.java
+```
 
-## 🛠️ Construído com
+### 🛠️ Built With
 
-Ferramentas utilizadas e bibliotecas
+Tools and libraries used:
 
-* IDE Visual Studio
+- Visual Studio Code IDE
 
-## 📌 Versão
+### 📌 Version
 
-* **Versão 1.0** O projeto consiste em um arranjo de calsses hipotético para um sistema de classificação de veículos composto por 7 classes e uma classe main. As classes e seus respectivos atributos são:
-* Automotor (super):
- - montadora
- - cor
- - kilometragem
+- **Version 1.0** The project consists of a hypothetical arrangement of classes for a vehicle classification system composed of 7 classes and a main class. The classes and their respective attributes are:  
 
-* Veiculo (super):
- - modelo
- - fabricacao
+* MotorizedVehicle (superclass):  
+  - manufacturer  
+  - color  
+  - mileage  
 
-* Caminhao (subclasse Automotor):
- - eixo
- - peso
+* Vehicle (superclass):  
+  - model  
+  - manufacture  
 
-* Domestico (subclasse Automotor):
- - passageiros
- - freio
- - airbag
+* Truck (subclass of MotorizedVehicle):  
+  - axle  
+  - weight  
 
-* Motocicleta (subclasse Automotor):
- - cilindradas
- - torque
+* Domestic (subclass of MotorizedVehicle):  
+  - passengers  
+  - brake  
+  - airbag  
 
-* Bicileta (subclasse Veiculo):
- - marca
- - cor
- - material
- - marcha
- - amortecedor
+* Motorcycle (subclass of MotorizedVehicle):  
+  - displacement  
+  - torque  
 
-* Skate (subclasse Veiculo):
- - marca
- - cor
- - dureza
- - diametro
+* Bicycle (subclass of Vehicle):  
+  - brand  
+  - color  
+  - material  
+  - gear  
+  - shock absorber  
 
-Todas as classes possuem o método printaTudo() herdado de Veiculos que retorna todos os atributos da classe em String e o método insert() que retorna uma string com um comando SQL para inserir as informações dessa classe em uma tabela com o nome da respectiva classe.
+* Skateboard (subclass of Vehicle):  
+  - brand  
+  - color  
+  - hardness  
+  - diameter  
 
-## ✒️ Autores
+All classes have the method `printAll()` inherited from Vehicle that returns all the class attributes as a String and the method `insert()` which returns a string with an SQL command to insert the class data into a table named after the respective class.
 
-* **Giovanni Galli** - *Trabalho Inicial* - Sistema Veículos
+### ✒️ Authors
 
+- **Giovanni Galli** – *Initial Work* – Vehicle System
