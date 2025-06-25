@@ -1,7 +1,7 @@
 # MOVIE
 
 This project consists of a single class (**Filme**) and an enum (**GENERO**).  
-The class has the following attributes:  
+The class contains the following attributes:  
 - title  
 - duration  
 - genre  
@@ -14,7 +14,7 @@ And the methods:
 - getGenre  
 - setGenre  
 
-The enum defines the genres:  
+The enum includes the genres:  
 - HORROR  
 - COMEDY  
 - ROMANCE  
@@ -31,3 +31,26 @@ To do this, first compile the files with:
 
 ```bash
 javac Main.java
+```
+
+### 🛠️ Built With
+
+Tools and libraries used:
+
+- **Visual Studio Code IDE**
+
+### 📌 Version
+
+- **Version 1.0** – This project consists of a single class (**Filme**) and an enum (**GENERO**) with the following:  
+  - title  
+  - duration  
+  - genre  
+
+The enum includes the genres:  
+- HORROR  
+- COMEDY  
+- ROMANCE  
+
+### ✒️ Authors
+
+- **Giovanni Galli** – *Initial Work* – Task Step 03
