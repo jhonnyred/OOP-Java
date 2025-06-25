@@ -1,34 +1,22 @@
-# Biblioteca de Conversões
+# Conversion Library
 
-O projeto consiste em uma única classe estática para conversões de medidas, a classe não possui atributos, os métodos são:
-* celsiusParaFahrenheit
-* quilometrosParaMilhas
-* gramasParaLibras
+This project consists of a single static class for unit conversions.  
+The class has no attributes, and the methods are:  
+- celsiusToFahrenheit  
+- kilometersToMiles  
+- gramsToPounds  
 
-[Screenshot do diagrama UML do pojeto](\imagem\diagrama.png)
+![UML diagram screenshot](\imagem\diagrama.png)
 
-### 📋 Pré-requisitos
+### 📋 Requirements
 
-É necessário ter java instalado e demais dependencias (no caso de linux é necessário que instale jdk-23_linux-x64_bin.deb)
+You must have Java installed and all required dependencies.  
+(If you're on Linux, make sure to install `jdk-23_linux-x64_bin.deb`)
 
-### 🔧 Instalação
+### 🔧 Installation
 
-Para a utilização de projeto é necessário executa-lo através do Visual Studio code ou através do comando "java" direto numa shell linux (para isso é necessário primeiro compilar os arquivos com "javac Main.java")
+To run the project, you can use **Visual Studio Code** or run it directly from a Linux shell using the `java` command.  
+To do this, first compile the files with:
 
-## 🛠️ Construído com
-
-Ferramentas utilizadas e bibliotecas
-
-* IDE Visual Studio
-
-## 📌 Versão
-
-* **Versão 1.0** O projeto consiste em uma única classe estática para conversões de medidas, a classe não possui atributos, os métodos são:
-* celsiusParaFahrenheit
-* quilometrosParaMilhas
-* gramasParaLibras
-
-## ✒️ Autores
-
-* **Giovanni Galli** - *Trabalho Inicial* - Tarefa 4
-
+```bash
+javac Main.java
